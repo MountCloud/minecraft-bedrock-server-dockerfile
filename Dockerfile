@@ -21,4 +21,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends wget unzip apt-
 RUN mkdir /bedrock-server
 WORKDIR /bedrock-server
 ENV LD_LIBRARY_PATH=.
-CMD tmux new-session -s mc-server -d && tmux send -t mc-server "./bedrock_server" ENTER
+CMD tmux new-session -s mc-server -d && tmux send -t mc-server "./bedrock_server" ENTER && while true;do echo hold;sleep 100000;done;
