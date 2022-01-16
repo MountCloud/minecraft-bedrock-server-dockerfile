@@ -36,3 +36,18 @@ docker exec -it mc-bedrock-server /bin/bash
 ```
 tmux attach -t mc-server
 ```
+
+## exit game server console
+tmux for game server console.
+
+Please learn TMUX first!
+
+When exiting TMUX, please put the session in the background:
+```
+Ctrl+B,D
+
+LOOK:
+Ctrl+B(Release Ctrl and B),(Only Click D)D
+
+You can try a few more times!
+```
